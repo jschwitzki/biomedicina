@@ -1,0 +1,152 @@
+.footerApp {
+    position: relative;
+    left: 0;
+    margin-top: auto;
+    bottom: 0;
+    height: 940px;
+    width: 100%;
+    background-color: #011329;
+    color: white;
+    text-align: center;
+}
+
+.h2Contact {
+    position: absolute;
+    left: 254px;
+    top: 7rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 66px;
+    line-height: 50px;
+    color: var(--secondary-color);
+    z-index: 0;
+}
+
+.textName {
+    position: absolute;
+    left: 256px;
+    top: 16rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputName {
+    position: absolute;
+    left: 256px;
+    top: 18rem;
+    width: 370px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    line-height: 10px;
+    background: transparent;
+    color: var(--main-color-white);
+    border: 1px solid var(--secondary-color);
+}
+
+.textEmail {
+    position: absolute;
+    left: 685px;
+    top: 16rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputEmail {
+    position: absolute;
+    top: 18rem;
+    left: 685px;
+    width: 370px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--main-color-white);
+    border: 1px solid var(--secondary-color);
+}
+
+.textMessage {
+    position: absolute;
+    left: 256px;
+    top: 24rem;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputMessage {
+    position: absolute;
+    top: 26rem;
+    left: 256px;
+    width: 800px;
+    height: 256px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    background: transparent;
+    color: var(--main-color-white);
+    border: 1px solid var(--secondary-color);
+    padding: 10px;
+    
+}
+
+.imgFofinha {
+    width: 45%;
+    height: 45%;
+    margin-left: 38rem;
+    margin-top: 22rem;
+}
+
+.btnSend {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: -675px;
+	background-color:var(--secondary-color);
+	border-radius:15px;
+	border: none;
+	cursor:pointer;
+	color: var(--main-color-white);
+	font-size:17px;
+	padding:15px 55px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+    font-weight: bold;
+}
+.btnSend:hover {
+	background-color:#00D8FF;
+}
+.btnSend:active {
+	position:relative;
+	top:1px;
+}
+
+.btnDelete {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: -495px;
+	background-color: transparent;
+	border-radius:15px;
+	border: 1.5px solid var(--secondary-color);
+	cursor:pointer;
+	color: var(--secondary-color);
+	font-size:17px;
+	padding:15px 55px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #000000;
+    font-weight: bold;
+}
+
+.btnDelete:hover {
+	-webkit-box-shadow: 0px 0px 13px 0px rgba(6,232,254,1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(6,232,254,1);
+    box-shadow: 0px 0px 13px 0px rgba(6,232,254,1);
+}
+
+.btnDelete:active {
+	position:relative;
+	top:1px;
+}
